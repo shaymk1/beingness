@@ -83,6 +83,7 @@ body {
 	color: var(--text-color);
 	line-height: 1.7;
 	font-weight: 300;
+	/* border: 20px solid var(--light-pink); */
 }
 
 /*-----------------------------------*\
@@ -117,6 +118,7 @@ h1 {
 	font-size: 3rem;
 	font-weight: 800;
 	color: var(--prussian-blue);
+	
 }
 
 .btn {
@@ -188,6 +190,13 @@ section > p{
   #Header
 \*-----------------------------------*/
 
+/* header{
+	border: 20px solid var(--light-pink);
+	position:fixed;
+	top:0;
+	width:100%;
+} */
+
 nav {
 	background: var(--dark-yellow);
 	height: 3.5rem;
@@ -257,17 +266,18 @@ nav {
 	align-items: center;
 	justify-content: canter;
 	margin-top: 3rem;
+	gap:4rem;
 	/* position: relative; */
 }
 
 .hero__image {
-	/* width: 14rem; */
-	width: 100%;
+	/* width: 17rem;  */
+    width: 100%; 
 	overflow: hidden;
 	aspect-ratio: 4/4;
 	max-height: 17rem;
 	margin-inline: auto;
-	border-radius: var(--radius-1);
+	border-radius: var(--radius-2);
 	/* border-radius: 7rem 7rem var(--radius-2) var(--radius-2); */
 	box-shadow: var(--shadow-2);
 }
@@ -285,4 +295,42 @@ nav {
 
 .hero__content h1 {
 	line-height: 1;
+}
+
+
+/*-----------------------------------*\
+  #About
+\*-----------------------------------*/
+
+
+.about {
+	display: grid;
+	place-items: center;
+	min-height: 100vh;
+}
+
+.about__container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap:4rem;
+	margin-top: 3rem;
+	position: relative; 
+}
+
+.about__image img{
+	width:20rem;
+	/* width:100%; */
+	max-height:20rem;
+	overflow:hidden;
+	aspect-ratio: 4/4;
+	margin-inline:auto;
+	box-shadow: var(--shadow-2);
+	border-radius: var(--radius-2);
+
+}
+
+.about__image img{
+	
+	height:100%;
 }
