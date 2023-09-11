@@ -203,12 +203,15 @@ body.lb-disable-scrolling {
   opacity: 1;
 }
 
+/* for the navigation arrows */
 .lb-nav a.lb-next,
 .lb-nav a.lb-prev{
 opacity: 0.4 !important;
+
 }
 
 .lb-nav a.lb-next:hover,
 .lb-nav a.lb-prev:hover{
 opacity: 0.8 !important;
+
 }
