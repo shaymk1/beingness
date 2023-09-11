@@ -15,7 +15,10 @@
     - custom css link
   -->
 		<link rel="stylesheet" href="./assets/css/style.css" />
-
+	<!-- 
+    - lightbox css link
+  -->
+  <link rel="stylesheet" href="./assets/css/lightbox.css" />
 		<!-- 
     - preload images
   --></head>
@@ -68,7 +71,7 @@
 				</article>
 				<article class="hero__image">
 					<img
-						src="./assets/images/insence.jpg"
+						src="./assets/images/massage-2.jpg"
 						alt="someone reading a book"
 						loading="lazy"
 						width="900"
@@ -115,10 +118,11 @@ tranquil valley of the Magalies mountains, immediately the calmness of the mount
 
 		 <section class="services" id="services">
 			<div class=" container  services__container">
-				<div class="services__content">
+				<article class="services__content">
 					<h1>Our Services</h1>
 					<p>We provide a range of beautiful services</p>
-				</div>
+				</article>
+				<article>
 				<ul class="services__list grid-list">
 					<!-- service-1 -->
 					<li class="services-item">
@@ -174,26 +178,9 @@ tranquil valley of the Magalies mountains, immediately the calmness of the mount
 							
 						</div>
 					</li>
-					<!-- service-4 -->
-					<!-- <li class="services-item">
-	                    <div class="services__image">
-							<img
-								src="assets/images/retreat-1.jpg"
-								alt="project 1"
-								loading="lazy"
-							/>
-						</div>
-						<h2>Yoga Retreat</h2>
-						<p>
-						We have a beautiful facility in the secluded within the Magalies mountains and Khutjo streams in North West. We are so remote, there is no cellphone signals. We have our own transport that will fetch you from the airport. We can host groups of about 10 people. 
-						</p>
-						<div class="project__cta">
-							<a href="#" class="btn sm " target="_blank">Book Now</a>
-							
-						</div>
-					</li>
-					 -->
+				
 				</ul>
+				</article>
 
 			</div>
 		 </section>
@@ -203,10 +190,10 @@ tranquil valley of the Magalies mountains, immediately the calmness of the mount
 		 --------->
          <section class="why">
             <div class="container why__container">
-                <div class="why__content">
+                <article class="why__content">
                     <p class="section-subtitle">Why Choose Us</p>
 
-            <h2 class="h2 section-title">We Are The Embodiments Of Calmness!</h2>
+                    <h2 class="h2 section-title">We Are The Embodiments Of Calmness!</h2>
 
               
                     <ul class="why-list">
@@ -264,11 +251,84 @@ tranquil valley of the Magalies mountains, immediately the calmness of the mount
                               Easy booking service
                             </p>
                         </li>
-                </div>
-            </ul>
-             </di>   
+					
+                </ul>
+			    </article>
+				<article class="why__image">
+					<img src="./assets/images/retreat-7.jpg" alt="">
+				</article>
+                </div>   
             </div>
          </section>
+
+		 		<!-- ----------
+			Gallery section
+		 --------->
+		 <section class="gallery" id="gallery">
+			<div class="container gallery__container">
+				<article class="gallery__content">
+					<h1>Our Gallery</h1>
+					<p>Please checkout our gallery</p>
+				</article>
+				<article class="gallery__images">
+					<!-- image-1 -->
+                        <a href="./assets//images/retreat-4.jpg" data-lightbox="beingness" data-title="yoga-retreat-1">
+
+					        <img src="./assets//images/retreat-4.jpg" alt="" width="400"
+								height="450">
+						</a>	
+						     <!-- image-2 -->
+
+					     <a href="./assets//images/insence.jpg" data-lightbox="beingness" data-title="yoga-retreat-2">
+								
+					        <img src="./assets//images/insence.jpg" alt="" width="400"
+								height="450">
+						</a>
+
+								<!-- image-3 -->	
+                        <a href="./assets//images/massage-2.jpg" data-lightbox="beingness" data-title="yoga-retreat-3">
+	
+					        <img src="./assets//images/massage-2.jpg" alt="" width="400"
+								height="450" >
+						</a>
+
+                               <!-- image-4-->
+						<a href="./assets//images/salads.jpg" data-lightbox="beingness" data-title="yoga-retreat-4">
+							
+					        <img src="./assets//images/salads.jpg" alt="" width="400"
+								height="450">
+						</a>
+							
+							  <!-- image-5 -->
+
+						<a href="./assets//images/retreat-1.jpg" data-lightbox="beingness" data-title="yoga-retreat-5">
+									
+					        <img src="./assets//images/retreat-1.jpg" alt="" width="400"
+								height="450" >
+
+                        </a>
+
+                             <!-- image-6-->
+						<a href="./assets//images/food.jpg" data-lightbox="beingness" data-title="yoga-retreat-6" >
+					        <img src="./assets//images/food.jpg" alt="" width="400"
+								height="450" >
+                        </a>	
+
+						       <!-- image-7 --> 
+						<a href="./assets//images/retreat-3.jpg" data-lightbox="beingness" data-title="yoga-retreat-7" >
+	
+					        <img src="./assets//images/retreat-3.jpg" alt="" width="400"
+								height="450" >
+						</a>
+
+                             <!-- image-8 -->
+							<a href="./assets//images/salad.jpg" data-lightbox="beingness" data-title="yoga-retreat-8">
+					             <img src="./assets//images/salad.jpg" alt="" width="400"
+								height="450"  >
+                            </a>	
+				</article>
+			</div>
+		 </section>
 	</main>
 
 	<body>
@@ -276,6 +336,11 @@ tranquil valley of the Magalies mountains, immediately the calmness of the mount
     - custom js link
   -->
 		<script src="./assets/js/script.js" defer></script>
+
+			<!-- 
+    - light-box js link
+  -->
+		<script src="./assets/js/lightbox-plus-jquery.js" defer></script>
 
 		<!-- 
     - ionicon link
