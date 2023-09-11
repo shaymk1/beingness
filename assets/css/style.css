@@ -182,8 +182,9 @@ section > p{
 
 .grid-list {
 	display: grid;
-	grid-template-columns: 1fr 1fr;
-	gap: 30px;
+	/* grid-template-columns: 1fr 1fr; */
+	grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+	grid-gap: 30px;
 }
 
 /*-----------------------------------*\
@@ -333,4 +334,43 @@ nav {
 .about__image img{
 	
 	height:100%;
+}
+
+/*-----------------------------------*\
+  #Services
+\*-----------------------------------*/
+
+.services__container{
+	display:grid;
+	place-items:center;
+}
+.services__content p{
+	margin-bottom:1rem;
+}
+
+.services-item{
+	background:white;
+	padding:1.4rem;
+	/* border:15px solid var(--light-gray); */
+	box-shadow:var(--shadow-1);
+	border-radius:var(--radius-2);
+	transition:var(--transition);
+
+
+}
+
+.services-item:hover{
+background:var(--cultured);
+}
+
+.services-item h2{
+	margin-bottom:1rem;
+}
+
+.services__image {
+	height: auto;
+	max-height: 17rem;
+	margin-bottom: 1.4rem;
+	border-radius: var(--radius-4);
+	overflow: hidden;
 }
