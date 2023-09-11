@@ -374,3 +374,50 @@ background:var(--cultured);
 	border-radius: var(--radius-4);
 	overflow: hidden;
 }
+
+/*-----------------------------------*\
+  #Why
+\*-----------------------------------*/
+.why__container{
+    display:grid;
+	place-items:center;
+}
+
+.why__content{
+	 display:grid;
+	place-items:center;
+}
+
+.why__content .section-subtitle{
+	font-size:2rem;
+	
+}
+
+.why__content h2{
+margin-bottom:1rem;
+}
+
+
+.about-list {
+	margin-block-end: 40px;
+}
+.why-item {
+	display: flex;
+	align-items: flex-start;
+	gap: 15px;
+}
+.why-text {
+	font-size: var(--fs-8);
+}
+/* .card-text .solar,
+.card-text .generators {
+	font-weight: 700;
+} */
+.why-icon {
+	min-width: max-content;
+	color: var(--dark-orange);
+	margin-block-start: 8px;
+}
+.why-item:not(:last-child) {
+	margin-block-end: 10px;
+}
