@@ -456,6 +456,50 @@ justify-content:center; */
 }
 
 /*-----------------------------------*\
+  #Testimonials
+\*-----------------------------------*/
+.testimonials__container {
+	display: grid;
+	place-items: center;
+}
+
+.testimonials__card{
+	display:grid;
+	 grid-template-columns: 1fr 1fr; 
+	/* grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); */
+	grid-gap:3rem;
+	margin-top:3rem;
+}
+
+.testimonial-item{
+	background:white;
+	height:100%;
+	padding:3rem 5rem;
+}
+
+testimonial__image {
+	/* width: 17rem;  */
+	width: 100%;
+	overflow: hidden;
+	aspect-ratio: 4/4;
+	/* max-height: 10rem; */
+	margin-inline: auto;
+	border-radius: 50%;
+	/* border-radius: 7rem 7rem var(--radius-2) var(--radius-2); */
+	box-shadow: var(--shadow-2);
+}
+
+.testimonial__image img{
+	width: 100%;
+    height: 100%;
+	max-width:3rem;
+	max-height:3rem;
+  object-fit: cover;
+  border-radius: 50%
+
+}
+
+/*-----------------------------------*\
   #contact us
 \*-----------------------------------*/
 
