@@ -1243,18 +1243,6 @@ textarea {
 
 	/* footer */
 
-	.footer__container {
-		width: var(--container-width-sm);
-		display: grid;
-		place-items: center;
-		margin: 0 auto;
-		/* padding-left:3rem;
-		padding-right:3rem;  */
-	}
-
-	.footer__top {
-		width: var(--container-width-sm);
-		display: grid;
-		grid-template-columns: 1fr 1fr;
-	}
+	
+	
 }
