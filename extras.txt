@@ -160,4 +160,348 @@
 
 
 
+<div class="contact__box">
+								<div class="contact-left">
+                                   <h2 class="sub-title">Reach Us Here</h2>
+								  <ul class="contact-list grid-list">
+									<!-- contact-list-1 -->
+									<li class="contact-item">
+									<ion-icon name="call"
+											aria-hidden="true"
+											class="contact-icon">
+										</ion-icon>
+										<a href="tel:+1234567853" class="contact-link">+1234567853</a>
+									</li>
+									<!-- contact-list-2 -->
+								<li class="contact-item">
+										<ion-icon
+											name="mail"
+											aria-hidden="true"
+											class="contact-icon">
+										</ion-icon>
+										<a href="mailto:beingness@gmail.com" class="contact-link">beingness@gmail.com</a>
+									</li>
+									<!-- contact-list-3 -->
+							<li class="contact-item">
+								<ion-icon name="location"
+								aria-hidden="true"
+											class="contact-icon-location"
+								></ion-icon>
+										
+										<a href="mailto:beingness@gmail.com" class="contact-link">
+											 <address class="contact-link address">
+              4517 Tswaing Road, Magaliesburg, 39495
+            </address>
+										</a>
+									</li>
+
+                             </ul>
+
+							 <h3 class="social-media-title">Find Us On Social Media</h3>
+
+							 <ul class="social-list">
+									<!-- social-list-1 -->
+										<li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+
+									<!-- social-list-2 -->
+									 <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+
+									<!-- social-list-3 -->
+									 <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+									
+								</ul>	
+								  
+								</div>
+								<div class="contact-right">
+                                    <h2 class="sub-title">Bookings</h2>
+									<form action="">
+										<div class="input-row">
+											<div class="input-group">
+												<label for="fullname"
+											       >Full Name: <span class="required">*</span>
+									            </label>
+									           <input
+												type="text"
+												name="fullname"
+												id="fullname"
+												aria-placeholder="Your Name"
+												required
+												aria-required="true"
+											/>
+												</div>
+										</div>
+										<div class="input-row">
+											<div class="input-group">
+												<label for="email">Email Address: <span class="required">*</span>
+									         </label>
+									       <input
+											type="email"
+											name="email"
+											id="email"
+											required
+											aria-required="true"/>
+												</div>
+										</div>
+										<div class="input-row">
+											<div class="input-group">
+												<label for="message">Subject:</span>
+									</label>
+									<input class="last-input"
+											name="subject"
+											id="subject"
+											>
+								</input>
+								</div>
+								</div>
+								<div class="input-row">
+											<div class="input-group">
+								<label for="message">Message: <span class="required" class="textarea-label">*</span>
+									</label>
+									<textarea 	name="message"
+											id="message"
+											rows="6"
+											required
+											aria-required="true">
+
+									</textarea>
+
+											</div>
+										</div>
+										<button type="submit" class="btn">Submit</button>
+									</form>
+								</div>
+							</div>
+
+
+							.contact__box {
+	/* background: #fff;
+	display: flex;
+	justify-content:center; 
+	margin-top: 4rem;
+	box-shadow: var(--shadow-2);
+	width:80%; 
+
+	
+}
+
+.sub-title {
+	font-size: 1.5rem;
+}
+
+.contact-right {
+	flex-basis: 60%;
+	padding: 40px 60px;
+	background: white;
+}
+
+.input-row {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 3rem;
+	margin-top: 3rem;
+}
+
+.input-row .input-group {
+	flex-basis: 45%;
+}
+
+input {
+	 width:100%;  */
+	border: none;
+	border-bottom: 1px solid #ccc;
+	outline: none;
+	padding-bottom: 1rem;
+	background: transparent;
+	margin-bottom: 1rem;
+}
+
+.last-input {
+	margin-bottom: 3rem;
+}
+
+label {
+	display: block;
+}
+
+label > span {
+	color: red;
+}
+
+textarea {
+	margin-top: 1rem;
+	background: transparent;
+	border: 1px solid #ccc;
+	outline: none;
+	padding: 3rem;
+	box-sizing: border-box;
+}
+
+
+.contact-left {
+	flex-basis: 60%;
+	padding: 40px 60px;
+	background: var(--cream);
+	
+}
+
+from the other guy
+
+/* section.left .contactTitle h2::after{
+	content: '';
+	position: absolute;
+	width: 25%;
+	height: 3px;
+	background-color: dodgerblue;
+	top: calc(120% - 1px);
+	left: 0;
+} */
+/* section.left .contactTitle p{
+	font-size: 17px;
+	color: #ccc;
+	letter-spacing: 1px;
+	line-height: 1.2;
+	padding-bottom: 22px;
+} */
+section.left .contactInfo{
+	margin-bottom: 16px;
+}
+.contactInfo .iconGroup{
+	display: flex;
+	align-items: center;
+	margin: 25px 0px;
+}
+.iconGroup .icon{
+	width: 45px;
+	height: 45px;
+	/* border: 2px solid dodgerblue;
+	border-radius: 50%; */
+	margin-right: 20px;
+	position: relative;
+}
+.iconGroup .icon i{
+	font-size: 20px;
+	color: #ddd;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.iconGroup .details span{
+	display: block;
+	/* color: #888; */
+	font-size: 18px;
+}
+
+
+.iconGroup .details span:nth-child(1){
+	text-transform: uppercase;
+	color: #ccc;
+}
+section.left .socialMedia{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-wrap: wrap;
+	margin: 22px 0px 20px;
+}
+.socialMedia a{
+	width: 35px;
+	height: 35px;
+	text-decoration: none;
+	text-align: center;
+	margin-right: 15px;
+	border-radius: 5px;
+	background-color: dodgerblue;
+	transition: 0.4s;
+}
+.socialMedia a i{
+	color: #ddd;
+	font-size: 18px;
+	line-height: 35px;
+	border: 1px solid transparent;
+	transition-delay: 0.4s;
+}
+.socialMedia a:hover{
+	transform: translateY(-5px);
+	background-color: #2e2e2e;
+	color: dodgerblue;
+	border: 1px solid dodgerblue;
+}
+.socialMedia a:hover i{
+	color: dodgerblue;
+}
+
+
+my media queiries
+
+	/* .contact__container {
+		width: var(--container-width-sm);
+		display: grid;
+		place-items: center;
+		margin: 0 auto;
+	}
+
+	.contact__content {
+		width: var(--container-width-sm);
+		text-align: center;
+		margin: 0 auto;
+	}
+
+	.contact__box {
+		flex-direction: column;
+		gap: 2rem;
+		justify-content: center;
+		align-items: center;
+		background: transparent;
+		/* margin-right:1rem;
+		margin-left:1rem; */
+		/* padding-left:1rem;  */
+		/* padding-right:1rem;  */
+		/* margin: 4rem 4rem; */
+	/* } */ *
+
+	/* .contact-left {
+		background: transparent;
+	}
+
+	.contact-right {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		/* background:transparent; */
+	/* } */
+
+	/* .contact-right .sub-title {
+		text-align: center;
+	} */
+
+
+
+		/* .container .contact__box{
+		flex-wrap: wrap;
+	}
+	.col__left, .col__right{
+		flex-basis: 100%;
+		margin: 0px;
+	}
+.messageForm .halfWidth{
+		flex-basis: 100%;
+	}
+						    
+
+
+
 			    
