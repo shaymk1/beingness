@@ -440,8 +440,8 @@ nav {
 	padding: 50px 8%;
 }
 
-.gallery__content p {
-	margin-bottom: 1rem;
+.gallery__content h1 {
+	margin-bottom: 4rem;
 }
 
 .gallery__images {
@@ -557,12 +557,10 @@ transform: translate(-0.5rem);
 	margin-bottom: 0.5rem;
 }
 
-.contact__content h1 {
-	margin-bottom: 1rem;
-}
+
 
  .contact__box{
-	margin-top:6rem;
+	margin-top:1rem;
 	display: flex;
 	justify-content: space-between;
 	align-items:center;
@@ -572,7 +570,7 @@ transform: translate(-0.5rem);
 
 
 .contact-list {
-	margin-top: 5rem;
+	margin-top: 2rem;
 }
 
 .contact-item {
@@ -635,28 +633,11 @@ transform: translate(-0.5rem);
 	min-width: 320px;
 	margin-right: 60px;
 }
-.contact__box .col__left{
-	
-}
+
 .contact__box .col__right{
 	flex-basis: 60%;
 }
-.col__left .contact-subtitle h2{
-	position: relative;
-	font-size: 28px;
-	color: #ddd;
-	display: inline-block;
-	margin-bottom: 25px;
-}
-.col__left .contact-subtitle h2::before{
-	content: '';
-	position: absolute;
-	width: 50%;
-	height: 1px;
-	background-color: #888;
-	top: 120%;
-	left: 0;
-}
+
 
 .sub-title {
 	font-size: 1.5rem;
@@ -668,9 +649,25 @@ transform: translate(-0.5rem);
 /* Code for the right section (column) */
 
 .col__right{
-	/* background:var(--light-yellow); */
-	/* padding:0rem 3rem; */
+	 
+	text-align:center;
 	margin-top:3rem;
+	
+	
+}
+
+.contact__box .col__right
+
+{
+
+	background:var(--light-yellow); 
+	display: flex;
+	flex-direction: column;
+	flex-basis: 35%;
+	min-width: 350px;
+	margin-right: 60px;
+	padding-left:3rem;
+	padding-bottom:3rem;
 	
 }
 
@@ -678,7 +675,7 @@ transform: translate(-0.5rem);
 	margin-bottom:.7rem;
 	margin-top:2rem;
 }
-.col__right .messageForm{
+.col__right .message-form{
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
@@ -686,17 +683,17 @@ transform: translate(-0.5rem);
 	align-items:center;
 	margin-right:3rem;
 }
-.col__right .inputGroup{
+.col__right .input-group{
 	margin: 18px 0px;
 	position: relative;
 }
-.messageForm .halfWidth{
+.message-form .half-width{
 	flex-basis: 48%;
 }
-.messageForm .fullWidth{
+.message-form .full-width{
 	flex-basis: 100%;
 }
-.messageForm input, .messageForm textarea{
+.message-form input, .message-form textarea{
 	width: 100%;
 	font-size: 1rem;
 	padding: 1rem 0;
@@ -706,7 +703,7 @@ transform: translate(-0.5rem);
 	border: 2px solid #666;
 	outline: none;
 }
-.messageForm textarea{
+.message-formtextarea{
 	resize: none;
 	height: 220px;
 	display: block;
@@ -722,7 +719,7 @@ textarea::-webkit-scrollbar-thumb{
 	background-color: dodgerblue;
 	border-radius: 15px;
 }
-.inputGroup label{
+.input-group label{
 	position: absolute;
 	left: 0;
 	bottom: 4px;
@@ -732,11 +729,15 @@ textarea::-webkit-scrollbar-thumb{
 	padding:1rem;
 	pointer-events: none;
 }
-.inputGroup:nth-child(4) label{
+
+.input-group label>span{
+	color:red;
+}
+.input-group:nth-child(4) label{
 	top: 2px;
 }
-.inputGroup input:focus ~ label, .inputGroup textarea:focus ~ label,
-.inputGroup input:valid ~ label, .inputGroup textarea:valid ~ label
+.input-group input:focus ~ label, .input-group textarea:focus ~ label,
+.input-group input:valid ~ label, .input-group textarea:valid ~ label
 {
 	transform: translateY(-30px);
 	font-size: 16px;
@@ -1054,13 +1055,7 @@ textarea::-webkit-scrollbar-thumb{
 	}
 
 	.contact__content{
-		text-align: center;
-		margin-right:4rem;
-		
-	
-
-		/* padding-left: 3rem;
-		padding-right: 3rem; */
+		margin-right:8rem;
 	}
     .contact__box{
 		width:80%;
@@ -1309,15 +1304,7 @@ textarea::-webkit-scrollbar-thumb{
 		margin: 0 auto;
 	}
 
-	.contact__content{
-		text-align: center;
-		margin-right:3rem;
-		
-	
 
-		/* padding-left: 3rem;
-		padding-right: 3rem; */
-	}
     .contact__box{
 		width:80%;
 		display:flex;
