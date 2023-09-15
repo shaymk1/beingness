@@ -648,13 +648,13 @@ transform: translate(-0.5rem);
 
 /* Code for the right section (column) */
 
-.col__right{
+/* .col__right{
 	 
 	text-align:center;
-	margin-top:3rem;
 	
 	
-}
+	
+} */
 
 .contact__box .col__right
 
@@ -664,10 +664,11 @@ transform: translate(-0.5rem);
 	display: flex;
 	flex-direction: column;
 	flex-basis: 35%;
-	min-width: 350px;
+	min-width: 340px;
 	margin-right: 60px;
 	padding-left:3rem;
 	padding-bottom:3rem;
+	margin-top:3rem;
 	
 }
 
