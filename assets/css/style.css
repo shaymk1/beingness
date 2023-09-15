@@ -660,11 +660,11 @@ transform: translate(-0.5rem);
 
 {
 
-	background:var(--light-yellow); 
+	/* background:var(--light-yellow);  */
 	display: flex;
 	flex-direction: column;
 	flex-basis: 35%;
-	min-width: 320px;
+	min-width: 360px;
 	margin-right: 60px;
 	padding-left:3rem;
 	padding-bottom:3rem;
