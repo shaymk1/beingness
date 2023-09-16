@@ -19,6 +19,10 @@
     - lightbox css link
   -->
   <link rel="stylesheet" href="./assets/css/lightbox.css" />
+	<!-- 
+    - animate on scroll css link
+  -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 		<!-- 
     - preload images
   -->
@@ -42,7 +46,7 @@
 						<a href="#services" class="menu__link">Services</a>
 					</li>
 					<li>
-						<a href="#gallery" class="menu__link">Gallery</a>
+						<a href="#blog" class="menu__link">Blog</a>
 					</li>
 					<li>
 						<a href="#contact" class="menu__link">Contact</a>
@@ -228,8 +232,8 @@ We provide wholeness wellness holistic organic earth friendly products in our st
 
                     <h2 class="h2 section-title">We Are The Embodiments Of Calmness!</h2>
 
-              
-                    <ul class="why-list">
+              <!-- data-aos="fade-left" -->
+                    <ul class="why-list" >
                         <li class="why-item">
                             <div class="why-icon">
                             <ion-icon name="chevron-forward"></ion-icon>
@@ -287,7 +291,8 @@ We provide wholeness wellness holistic organic earth friendly products in our st
 					
                 </ul>
 			    </article>
-				<article class="why__image">
+				<!-- data-aos="fade-right" -->
+				<article class="why__image"  >
 					<img src="./assets/images/retreat-17.jpg" 
 					  alt="" 
 					   loading="lazy"
@@ -307,7 +312,7 @@ We provide wholeness wellness holistic organic earth friendly products in our st
 					<h1>Our Gallery</h1>
 					
 				</article>
-				<article class="gallery__images">
+				<article class="gallery__images ">
 					<!-- image-1 -->
                                     <a href="./assets//images/retreat-1.jpg" data-lightbox="beingness" data-title="yoga-retreat-3">
 	
@@ -430,7 +435,7 @@ We provide wholeness wellness holistic organic earth friendly products in our st
 									<ion-icon name="star-half"></ion-icon>
 								</div>
 								<div class="testimonial-text">
-																	<p>Abolutely Amazeball! Fantastic experience! I recommend this.</p>
+							<p>Abolutely Amazeball! Fantastic experience! I recommend this.</p>
 								</div>
 							</div>
 							
@@ -456,7 +461,7 @@ We provide wholeness wellness holistic organic earth friendly products in our st
 									<ion-icon name="star-half"></ion-icon>
 								</div>
 								<div class="testimonial-text">
-																	<p>Abolutely Amazeball! Fantastic experience! I recommend this.</p>
+								<p>Abolutely Amazeball! Fantastic experience! I recommend this.</p>
 								</div>
 							</div>
 							
@@ -507,94 +512,13 @@ We provide wholeness wellness holistic organic earth friendly products in our st
 				<article class="contact__content">
 					<h1>Contact US</h1>
 					
-				</article>
+				</article> 
 				
                
-				<div class="contact__box">
-								<!--  *******   Left Section (Column) Starts   *******  -->
-
-				<article class="col__left">
-					<!-- <div class="contact-subitle">
-							<h2>Get In Touch </h2>
-							<p></p>
-					</div> -->
-					
-					<ul class="contact-list grid-list">
-
-								<!-- contact-list-1 -->
-						<li class="contact-item">
-							<ion-icon name="call"
-								aria-hidden="true"
-								class="contact-icon">
-							</ion-icon>
-								<a href="tel:+1234567853" class="contact-link">+1234567853</a>
-						</li>
-										<!-- contact-list-2 -->
-						<li class="contact-item">
-							<ion-icon
-												name="mail"
-												aria-hidden="true"
-												class="contact-icon">
-							</ion-icon>
-								<a href="mailto:beingness@gmail.com" class="contact-link">beingness@gmail.com</a>
-						</li>
-
-										<!-- contact-list-3 -->
-
-						<li class="contact-item">
-							<ion-icon name="location"
-							    aria-hidden="true"
-							    class="contact-icon-location">
-						    </ion-icon>
-											
-							<a href="mailto:beingness@gmail.com" class="contact-link">
-								<address class="contact-link address">
-									4517 Tswaing Road, Magaliesburg, 39495
-								</address>
-							</a>
-						</li>
-
-                    </ul>
-
-				   <h3 class="social-media-title">Find Us On Social Media</h3>
-
-					<ul class="social-list">
-					<!-- social-list-1 -->
-
-						<li>
-							<a href="#" class="social-link">
-							<ion-icon name="logo-facebook"></ion-icon>
-							</a>
-						</li>
-
-												<!-- social-list-2 -->
-						<li>
-							<a href="#" class="social-link">
-							<ion-icon name="logo-twitter"></ion-icon>
-							</a>
-						</li>
-
-												<!-- social-list-3 -->
-						<li>
-							<a href="#" class="social-link">
-							<ion-icon name="logo-instagram"></ion-icon>
-							</a>
-						</li>
-											
-				    </ul>	
-				</article>
-
-							<!--  *******   Left Section (Column) Ends   *******  -->
-
-							<!--  *******   Right Section (Column) Starts   *******  -->
-<!-- 
-				<article class="col__right">
-					
-					<!--  *******   Form Starts   *******  -->
-                       
-					    <!-- <form class="message-form">
+				
+					    
+						<form action="https://formsubmit.co/smkekae1@gmail.com" method="POST" class="form" />
 						
-							<div class="input-group half-width">
 								<label for="fullname">Name: <span class="required">*</span>
 								</label>
 								<input 
@@ -606,9 +530,9 @@ We provide wholeness wellness holistic organic earth friendly products in our st
 									aria-required="true"
 								>
 								
-							</div>
+						
 
-							<div class="input-group half-width">
+							
 								<label for="email">Email : <span class="required">*</span>
 								</label>
 								<input
@@ -616,35 +540,35 @@ We provide wholeness wellness holistic organic earth friendly products in our st
 									name="email"
 									id="email"
 									required aria-required="true"/>
-							</div>
+							
 
-							<div class="input-group full-width">
+							
 									<label for="message">Subject:</span>
 									</label>
 									<input class="last-input"
 											name="subject"
 											id="subject"
 									/>
-							</div>
+						
 
-							<div class="input-group full-width">
+							
 								<label for="message">Message: <span class="required" class="textarea-label">*</span>
 									</label>
 									<textarea 	name="message"
 											id="message"
-											rows="6"
+											rows="7"
 											required
 											aria-required="true">
 
 									</textarea>
-							</div>
+							
 
 							
 								<button type="submit" class="btn">Submit</button>
 							
 							</div>
 
-					    </form> -->
+					    </form> 
 
 					   <!--  *******   Form Ends   *******  -->
 				<!-- </article>  -->
@@ -666,62 +590,74 @@ We provide wholeness wellness holistic organic earth friendly products in our st
 		<div class="footer__top ">
 			<div class="footer-brand">
 					<a href="#home" class="logo"><span>Be-</span>ingness</a>
-					 <ul class="contact-list grid-list ">
+					 <ul class="footer-contact-list grid-list ">
 							<!-- contact-list-1 -->
-						<li class="contact-item">
+						<li class="footer-contact-item list">
 							<ion-icon 
 							    name="call"
 								aria-hidden="true"
 								class="contact-icon">
 							</ion-icon>
-							<a href="tel:+1234567853" class="contact-link">+1234567853</a>
+							<a href="tel:+1234567853" class="footer-contact-link"  target="_blank">+1234567853</a>
 						</li>
 									<!-- contact-list-2 -->
-						<li class="contact-item">
+						<li class="footer-contact-item list">
 							<ion-icon
 								name="mail"
 								aria-hidden="true"
 								class="contact-icon">
 							</ion-icon>
-							<a href="mailto:beingness@gmail.com" class="contact-link">beingness@gmail.com</a>
+							<a href="mailto:beingness@gmail.com" class="footer-contact-link"  target="_blank">beingness@gmail.com</a>
 						</li>
 									<!-- contact-list-3 -->
-						<li class="contact-item">
+						<li class="footer-contact-item list">
 							<ion-icon 
 							   name="location"
 								aria-hidden="true"
 								class="contact-icon-location">
 							</ion-icon>
-							<a href="mailto:beingness@gmail.com" class="contact-link">
-								<address class="contact-link address">
+							<a href="mailto:beingness@gmail.com" class="footer-contact-link"  target="_blank">
+								<address class="footer-link address">
                                     4517 Tswaing Road, Magaliesburg
                                 </address>
+							</a>
+							
+						</li>
+                           <!-- footer-social-list-1 -->
+						<li class="footer-contact-item  list">
+							<ion-icon name="logo-facebook"></ion-icon>
+							<a href="#" class="footer-contact-link" target="_blank">
+								Be-ing-ness
+							</a>
+						</li>
+						<!-- footer-social-list-2 -->
+
+						<li class="footer-contact-item list ">
+							<ion-icon name="logo-twitter"></ion-icon>
+							<a href="#" class="footer-contact-link" target="_blank">
+								#Be-ing-ness-love
 							</a>
 						</li>
 
                     </ul>
 
 					
-				    <ul class="social-list">
+				    <!-- <ul class="footer-social-list">
 
 						<li>
-							<a href="#" class="social-link" target="_blank">
+							<a href="#" class="footer-social-link" target="_blank">
 								<ion-icon name="logo-facebook"></ion-icon>
 							</a>
 						</li>
 
 						<li>
-							<a href="#" class="social-link" target="_blank">
+							<a href="#" class="footer-social-link" target="_blank">
 								<ion-icon name="logo-twitter"></ion-icon>
 							</a>
 						</li>
 
-						<li>
-							<a href="#" class="social-link" target="_blank">
-								<ion-icon name="logo-instagram"></ion-icon>
-							</a>
-						</li>
-				    </ul>
+					
+				    </ul> -->
 			</div>
 			<div class="footer__group">
 					<h2 class="footer-list-title">Quick Links</h2>
@@ -738,7 +674,7 @@ We provide wholeness wellness holistic organic earth friendly products in our st
 						</li>
 
 						<li>
-							<a href="#gallery" class="footer-link">Gallery</a>
+							<a href="#blog" class="footer-link">Blog</a>
 						</li>
 
 						<li>
@@ -753,19 +689,19 @@ We provide wholeness wellness holistic organic earth friendly products in our st
 					<ul class="footer-list">
 
 						<li>
-							<a href="#" class="footer-link">Yoga Retreat</a>
+							<a href="#services" class="footer-link">Yoga Retreat</a>
 						</li>
 
 						<li>
-							<a href="#" class="footer-link">Massages</a>
+							<a href="#services" class="footer-link">Massages</a>
 						</li>
 
 						<li>
-							<a href="#" class="footer-link">Beauty Treatments</a>
+							<a href="#services" class="footer-link">Sage Making Workshop</a>
 						</li>
 
 						<li>
-							<a href="#" class="footer-link">Wholeness Consultation </a>
+							<a href="#services" class="footer-link">Beingness Organic Store </a>
 						</li>
 
 					</ul>
@@ -832,5 +768,12 @@ We provide wholeness wellness holistic organic earth friendly products in our st
 			nomodule
 			src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
 		></script>
+	<!-- 
+    - animate on scroll script link
+  -->
+		  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+         <script>
+         AOS.init();
+        </script>
 	</body>
 </html>

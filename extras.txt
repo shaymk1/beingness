@@ -503,5 +503,276 @@ my media queiries
 						    
 
 
+<address class="contact-link address">
+									4517 Tswaing Road, Magaliesburg, 39495
+								</address>
 
+
+				   <!-- <h3 class="social-media-title">Find Us On Social Media</h3> -->
+
+					<ul class="social-list">
+					<!-- social-list-1 -->
+
+						<li>
+							<a href="#" class="social-link">
+							<ion-icon name="logo-facebook"></ion-icon>
+							</a>
+						</li>
+
+												<!-- social-list-2 -->
+						<li>
+							<a href="#" class="social-link">
+							<ion-icon name="logo-twitter"></ion-icon>
+							</a>
+						</li>
+
+												<!-- social-list-3 -->
+						<li>
+							<a href="#" class="social-link">
+							<ion-icon name="logo-instagram"></ion-icon>
+							</a>
+						</li>
+											
+				    </ul>	
+
+
+
+					/* .social-list {
+	margin-top: 3rem;
+	display: flex;
+	gap: 3rem;
+	transition: var(--transition);
+} */
+
+/* .social-list ion-icon {
+	display: inline-block;
+	font-size: 2rem;
+	color: var(--dark-blue);
+} */
+
+/* .social-link ion-icon:hover {
+	color: var(--light-green);
+} */
+
+.contact-left-span {
+	width: 80%;
+	height: 3px;
+	background: #ccc;
+	border-bottom: 1px solid #ccc;
+}
+
+.social-media-title {
+	margin-top: 3rem;
+}
+
+/* contact-left */
+/* .contact__box .col__left */
+
+/* {
+	display: flex;
+	flex-direction: column;
+	align-items:center;
+	/* flex-basis: 35%; */
+/* min-width: 320px; */
+/* margin-right: 60px; */
+/* }  */
+
+/* .contact__box .col__right{
+	flex-basis: 60%;
+} */
+
+/* .sub-title {
+	font-size: 1.5rem;
+} */
+
+/* Code for the right section (column) */
+
+/* .col__right{
+	 
+	text-align:center;
+	
+	
+	
+} */
+
+/* .contact__box .col__right{ */
+
+/* background:var(--light-yellow);   */
+/* display: flex;
+	flex-direction: column;
+	flex-basis: 35%;
+	min-width: 360px;
+	margin-right: 70px;
+	padding-left:3rem; 
+	padding-bottom:3rem;
+	margin-top:3rem;
+	
+} */
+
+.col__right .contact-subitle {
+	margin-bottom: 0.7rem;
+	margin-top: 2rem;
+}
+.col__right .message-form {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding-top: 30px;
+	align-items: center;
+	margin-right: 3rem;
+}
+.col__right .input-group {
+	margin: 18px 0px;
+	position: relative;
+}
+.message-form .half-width {
+	flex-basis: 48%;
+}
+.message-form .full-width {
+	flex-basis: 100%;
+}
+.message-form input,
+.message-form textarea {
+	width: 100%;
+	font-size: 1rem;
+	padding: 1rem 0;
+	background-color: transparent;
+	color: #ddd;
+	/* border: none; */
+	border: 2px solid #666;
+	outline: none;
+}
+.message-formtextarea {
+	resize: none;
+	height: 220px;
+	display: block;
+}
+textarea::-webkit-scrollbar {
+	width: 5px;
+}
+textarea::-webkit-scrollbar-track {
+	background-color: #1e1e1e;
+	border-radius: 15px;
+}
+textarea::-webkit-scrollbar-thumb {
+	background-color: dodgerblue;
+	border-radius: 15px;
+}
+.input-group label {
+	position: absolute;
+	left: 0;
+	bottom: 4px;
+	color: #888;
+	font-size: 1rem;
+	transition: 0.4s;
+	padding: 1rem;
+	pointer-events: none;
+}
+
+.input-group label > span {
+	color: red;
+}
+.input-group:nth-child(4) label {
+	top: 2px;
+}
+.input-group input:focus ~ label,
+.input-group textarea:focus ~ label,
+.input-group input:valid ~ label,
+.input-group textarea:valid ~ label {
+	transform: translateY(-30px);
+	font-size: 16px;
+}
+
+
+<!-- <div class="contact__box"> -->
+								<!--  *******   Left Section (Column) Starts   *******  -->
+
+				<!-- <article class="col__left"> -->
+					<!-- <div class="contact-subitle">
+							<h2>Get In Touch </h2>
+							<p></p>
+					</div> -->
+					
+					<ul class="contact-list grid-list">
+
+								<!-- contact-list-1 -->
+						<li class="contact-item">
+						
+								<a href="tel:+1234567853" class="contact-link"  target="_blank">
+										<ion-icon name="call"
+								aria-hidden="true"
+								class="contact-icon">
+							</ion-icon>
+								</a>
+						</li>
+										<!-- contact-list-2 -->
+						<li class="contact-item">
+						
+								<a href="mailto:beingness@gmail.com" class="contact-link" target="_blank" >
+										<ion-icon
+												name="mail"
+												aria-hidden="true"
+												class="contact-icon">
+							</ion-icon>
+								</a>
+						</li>
+
+										<!-- contact-list-3 -->
+
+						<li class="contact-item">
+							
+											
+							<a href="mailto:beingness@gmail.com" class="contact-link"  target="_blank">
+								<ion-icon 
+								name="location"
+							    aria-hidden="true"
+							    class="contact-icon location">
+						    </ion-icon>
+							</a>
+						</li>
+
+						<!-- social-list-1 -->
+
+						<li class="contact-item">
+							<a href="#" class="contact-link"  target="_blank">
+							<ion-icon 
+							name="logo-facebook"
+							aria-hidden="true"		
+							class="contact-icon social"></ion-icon>
+							</a>
+						</li>
+
+						
+												<!-- social-list-2 -->
+						<li class="contact-item">
+							<a href="#" class="contact-link"  target="_blank">
+							<ion-icon 
+							name="logo-twitter"
+							aria-hidden="true"
+							class="contact-icon social"
+							></ion-icon>
+							</a>
+						</li>
+
+					
+
+                    </ul>
+
+				<!-- </article> -->
+
+							<!--  *******   Left Section (Column) Ends   *******  -->
+
+							<!--  *******   Right Section (Column) Starts   *******  -->
+<!-- 
+				<article class="col__right">
+					
+					<!--  *******   Form Starts   *******  -->
+                       
+
+					.contact__container{
+						width:50%;
+						display:grid;
+						grid-template-columns:1fr 9fr;
+
+					}
 			    
