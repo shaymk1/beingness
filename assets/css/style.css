@@ -434,37 +434,85 @@ nav {
 	background-color: var(--deep-orange);
 }
 
+.newsletter__container{
+display: grid;
+	place-items: center;	
+}
+
+.newsletter__content{
+	display:flex;
+	align-items:center;
+	gap:2rem;
+}
+
 .newsletter .img-holder {
 	background-color: transparent;
 	margin-block-end: 20px;
 	max-width: max-content;
+	
+}
+
+.newsletter .img-holder img {
+	
+max-height:5rem;
+	
 }
 
 .newsletter .section-title {
 	margin-block-end: 20px;
+	color:white;
 }
 
-.email-field {
-	background-color: var(--white);
-	color: var(--eerie-black);
-	font-size: var(--fs-9);
+.newsletter-form{
+	margin-top:1rem;
+	display:flex;
+	gap: 1rem;
+}
+
+.newsletter-form .input{
+	background-color: transparent;
+	color: #555;
+	font-size: 1rem;
 	height: 65px;
 	padding-inline: 20px;
 	margin-block-end: 10px;
 	outline: none;
+	border:2px solid #ccc;
 	transition: var(--transition);
 }
+
+::placeholder{
+color: #888;
+}
+
+.newsletter-form .label{
+	position:absolute;
+	color:white;
+	padding:1rem;
+}
+
+.email-field {
+	background-color: transparent;
+	color: #555;
+	font-size: 1rem;
+	height: 65px;
+	padding-inline: 20px;
+	margin-block-end: 10px;
+	outline: none;
+	border:2px solid #ccc;
+	transition: var(--transition);
+}
+
+
 
 .email-field:focus {
 	box-shadow: 0 2px 2px hsla(0, 0%, 0%, 0.4);
 }
 
-.newsletter-btn {
-	background-color: var(--prussian-blue);
-	color: var(--white);
-	font-family: var(--ff-oswald);
-	font-weight: var(--fw-700);
-	padding: 8px 20px;
+
+
+.newsletter-form .btn {
+	margin-bottom:1.5rem;
 }
 
 /*-----------------------------------*\
@@ -1053,6 +1101,26 @@ nav {
 		height: auto;
 	}
 
+	/* newsletter */
+.newsletter__container {
+		width: var(--container-width-sm);
+		display: grid;
+		place-items: center;
+		
+		
+	}
+
+.newsletter__subtitle {
+	font-size:1.5rem;
+	text-align:center;
+}
+	.newsletter-form{
+		width: var(--container-width-sm);
+		display:flex;
+		flex-direction:column;
+		max-width:80%;
+	}
+
 	/* testimonials */
 
 	.testimonials__container {
@@ -1079,7 +1147,26 @@ nav {
 		margin-top: 3rem;
 	}
 
-	/* contact */
+	/* blog */
+
+		.blog__container {
+		width: var(--container-width-sm);
+		display: grid;
+		place-items: center;
+		margin: 0 auto;
+	}
+
+	.blog__content{
+		text-align: center;
+	}
+
+	.blog-list{
+		width: var(--container-width-sm);
+		display:grid;
+		grid-template-columns:1fr;
+		place-items:center;
+	}
+
 
 	/* contact */
 
